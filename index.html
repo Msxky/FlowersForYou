@@ -120,19 +120,19 @@
         dInput2.style.display = "none";
         btnSend.style.display = "none";
         h1.style.display = "block";
-        h1.textContent = `"these flowers are for ${dInput.value}🤍"`;
+        h1.textContent = `these flowers are for ${dInput.value}🤍`;
         dInput.style.display = "none";
 
         setTimeout(function () {
           btnNext.style.display = "block";
-        }, 5000);
+        }, 2000);
       }
     }
 
     function next() {
       h1.textContent = "Loading...";
       h1.style.fontWeight = "600";
-      btnNext.value = "Flower 4U beb❤, smoga suka ye";
+      btnNext.value = "Flower 4U beb❤, semoga suka ye";
       audio.play();
       setTimeout(function () {
         location.href = "/flower.html";
